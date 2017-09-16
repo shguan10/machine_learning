@@ -129,6 +129,11 @@ class dbn:
 						for x, y in zip(self.sizes[:-1], self.sizes[1:])]
 		#self.weights = np.random.randn(self.sizes[1]+1, self.sizes[0]+1) / np.sqrt(self.sizes[1]+self.sizes[0])
 
+	def displayWeights(self):
+		import matrix784xDisplayer as mD
+		a = self.backwardpass(np.identity(len(self.rbmList[-1].weights)))
+		pass
+
 #### Miscellaneous functions
 def sigmoid(z):
 	"""The sigmoid function."""
