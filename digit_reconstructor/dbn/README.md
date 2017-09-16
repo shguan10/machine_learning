@@ -1,6 +1,6 @@
 I was inspired to start this project when I read a line in deeplearningandneuralnetworks.com that said:
 "My personal opinion is that DBNs and other generative models likely deserve more attention than they are currently receiving."
-This led me to research more about generative models, and the pros and cons of using one or the other. Eventually, I decided that I would start with DBNs.
+This led me to research more about generative models, the statistics behind them (like Contrastive Divergence and KL divergence), and the pros and cons of using one or the other. Eventually, I decided that I would start with DBNs.
 
 List of resources used:
 
