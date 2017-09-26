@@ -132,7 +132,9 @@ class dbn:
 	def displayWeights(self):
 		import matrix784xDisplayer as mD
 		a = self.backwardpass(np.identity(len(self.rbmList[-1].weights)))
-		pass
+		mD.display(a[:-1]*254)
+		
+	
 
 #### Miscellaneous functions
 def sigmoid(z):

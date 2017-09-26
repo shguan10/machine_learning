@@ -2,6 +2,15 @@ I was inspired to start this project when I read a line in deeplearningandneural
 "My personal opinion is that DBNs and other generative models likely deserve more attention than they are currently receiving."
 This led me to research more about generative models, the statistics behind them (like Contrastive Divergence and KL divergence), and the pros and cons of using one or the other. Eventually, I decided that I would start with DBNs.
 
+To Run the DBN:
+
+python dbnRun.py
+
+
+To Display the DBN Reconstructed Digits:
+
+python dbnDisplay.py
+
 List of resources used:
 
 www.scholarpedia.org/article/Deep_belief_networks
