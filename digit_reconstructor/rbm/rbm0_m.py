@@ -8,7 +8,8 @@ import cPickle
 import gzip
 
 rootdir = '.\\'
-if(os.getcwd()[-3]=="rbm"): rootdir = '..\\..\\'
+if(os.getcwd()[-3:]!="ing"): rootdir = '..\\..\\'#TODO this checks if the cwd is not the root dir (a dir that ends in 'ing'), so I should make this adaptable to more use cases in the future
+
 #@params im is a binary Image object
 #returns the 784x1 training vector, without a bias unit
 def getV(im):

@@ -1,8 +1,10 @@
+#Interpreter python2
+#displays the dbn reconstructed digits
+
 import sys
 sys.path.insert(0,'..\\rbm')
 
-#Interpreter python2
-#displays the dbn reconstructed digits
+
 print("Loading DBN\n")
 import cPickle as cP
 with open("..\\..\\data\\defValues-300-300.pklb","rb") as f:
