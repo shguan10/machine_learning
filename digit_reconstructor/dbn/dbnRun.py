@@ -5,7 +5,7 @@ sys.path.insert(0,'..\\rbm')
 #trains the dbn for 20 epochs, writes the weights to a file, and displays the reconstructed digits
 print("Loading DBN\n")
 import cPickle as cP
-with open("defValues-300-300.pklb","rb") as f:
+with open("..\\..\\data\\defValues-300-300.pklb","rb") as f:
 	a=cP.load(f)
 import dbn
 import rbm0_m as rbm0
