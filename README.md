@@ -18,7 +18,7 @@ python2
 ### Currently I have: 
 1. digit classifier interface
 2. digit reconstructor
-  To see the demo, run `python dbnRun.py`
+&nbsp &nbsp&nbsp To see the demo, run `python dbnRun.py`
 
 ### Contact
 Please refer any contact to <shguan10@gmail.com> with 'Machine Learning Projects' in the subject header.
