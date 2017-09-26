@@ -15,7 +15,7 @@ python2
 3. gzip
 4. cPickle
 
-### Currently I have: 
+### List of Projects
 1. digit classifier interface
    + To see the demo, run `python nninter.py`. This will load the 3-layer ReLU neural network with default weights, and display a grid, where you can draw a digit and see if the machine recognizes it. 
    + NOTE: As the machine was trained on images centered on the 28x28 grid, try to draw digits that are also centered. The machine will perform better.
