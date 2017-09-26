@@ -1,16 +1,28 @@
 # machine_learning
-Independent Projects in Machine Learning
+## Independent Projects in Machine Learning
 
 Here are my projects with a machine learning theme.
 
-Operating System: Windows (unfortunately, all of the filename paths use the Windows convention)
+### Operating System: 
+Windows (unfortunately, all of the filename paths use the Windows convention with "\\")
 
-Interpreter: python2
+### Interpreter: 
+python2
 
-Dependencies: numpy, Tkinter, gzip, cPickle
+### Dependencies: 
+1. numpy
+2. Tkinter
+3. gzip
+4. cPickle
 
-Currently I have: 
+### Currently I have: 
+1. digit classifier interface
+2. digit reconstructor
++ To see the demo, run `python .\digit_reconstructor\dbn\dbnRun.py`. This will load the dbn with default weights, train it for 20 epochs, write the new weights to a file and finally display the reconstructed digits.
++ To only see the reconstructed digits using the default weights, run `python .\digit_reconstructor\dbn\dbnDisplay.py`
 
---> digit classifier interface
+### Contact
+Please refer any contact to <shguan10@gmail.com> with 'Machine Learning Projects' in the subject header.
 
---> digit reconstructor
+### License
+© 2017. Xinyu Guan
