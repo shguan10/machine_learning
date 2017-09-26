@@ -14,6 +14,7 @@
 
 ## My Code
 + nninter.py
+   + This is also the demo. Run `python nninter.py` to see my machine in action.
 
 ## Code based on [this helpful tutorial](http://www.neuralnetworksanddeeplearning.com)
 + mnist_loader.py
