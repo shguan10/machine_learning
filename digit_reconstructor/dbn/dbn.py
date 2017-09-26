@@ -4,6 +4,9 @@ import numpy as np
 import os
 import rbm0_m as rbm0
 
+rootdir = '.\\'
+if(os.getcwd()[-4:-1]=="rbm"): rootdir = '..\\..\\'
+
 #@params im is a binary Image object
 #returns the 784x1 training vector, without a bias unit
 def getV(im):

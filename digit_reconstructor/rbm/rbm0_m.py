@@ -7,6 +7,8 @@ import cPickle
 #import matrix784xDisplayer as mD #debuggins
 import gzip
 
+rootdir = '.\\'
+if(os.getcwd()[-3]=="rbm"): rootdir = '..\\..\\'
 #@params im is a binary Image object
 #returns the 784x1 training vector, without a bias unit
 def getV(im):
@@ -14,7 +16,7 @@ def getV(im):
 
 class rbm0:
 	#assume sizes doesn't include the bias unit
-	def __init__(self, size=(784, 300),mrat=.5,eta=.001, p=.01,dfile="..\\..\\data\\binaryImageMatrix785x.pklb.gz"):
+	def __init__(self, size=(784, 300),mrat=.5,eta=.001, p=.01,dfile=rootdir+"data\\binaryImageMatrix785x.pklb.gz"):
 		#initialize weights
 		#initalize network
 		self.dfile = dfile
