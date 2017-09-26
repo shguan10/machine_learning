@@ -10,10 +10,12 @@ Windows (unfortunately, all of the filename paths use the Windows convention wit
 python2
 
 ### Dependencies: 
-1. numpy
-2. Tkinter
-3. gzip
-4. cPickle
++ numpy
++ Tkinter
++ gzip
++ cPickle
++ os
++ sys
 
 ### List of Projects
 1. digit classifier interface
