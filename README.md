@@ -4,7 +4,7 @@
 Here are my projects with a machine learning theme.
 
 ### Operating System: 
-Windows (unfortunately, all of the filename paths use the Windows convention)
+Windows (unfortunately, all of the filename paths use the Windows convention with "\\")
 
 ### Interpreter: 
 python2
@@ -18,8 +18,8 @@ python2
 ### Currently I have: 
 1. digit classifier interface
 2. digit reconstructor
-
---> To see the demo, run `python .\digit_reconstructor\dbn\dbnRun.py` or `python .\digit_reconstructor\dbn\dbnDisplay.py`
++ To see the demo, run `python .\digit_reconstructor\dbn\dbnRun.py`. This will load the dbn with default weights, train it for 20 epochs, write the new weights to a file and finally display the reconstructed digits.
++ To only see the reconstructed digits using the default weights, run `python .\digit_reconstructor\dbn\dbnDisplay.py`
 
 ### Contact
 Please refer any contact to <shguan10@gmail.com> with 'Machine Learning Projects' in the subject header.
