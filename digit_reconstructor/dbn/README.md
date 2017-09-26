@@ -6,7 +6,6 @@ This led me to research more about generative models, the statistics behind them
 ### To Run the DBN:
 python dbnRun.py
 
-
 ### To Display the DBN Reconstructed Digits:
 
 python dbnDisplay.py
@@ -20,4 +19,5 @@ python dbnDisplay.py
 5. https://blog.openai.com/generative-models/
 6. https://en.wikipedia.org/wiki/Variational_Bayesian_methods
 
-
+**Notes/Caveats**
+The python interpreter to be used is python2. The filenames used in the code follow the Windows convention of using "\\", so this project will not work on Linux machines, unfortunately. An adaption for Linux machines will come in a future update.
