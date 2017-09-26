@@ -19,7 +19,7 @@ python2
 1. digit classifier interface
 2. digit reconstructor
 
---> To see the demo, run `python dbnRun.py`
+--> To see the demo, run `python .\digit_reconstructor\dbn\dbnRun.py` or `python .\digit_reconstructor\dbn\dbnDisplay.py`
 
 ### Contact
 Please refer any contact to <shguan10@gmail.com> with 'Machine Learning Projects' in the subject header.
