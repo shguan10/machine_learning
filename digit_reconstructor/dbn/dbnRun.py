@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0,'..\\rbm')
+
 #Interpreter python2
 #trains the dbn for 20 epochs, writes the weights to a file, and displays the reconstructed digits
 print("Loading DBN\n")

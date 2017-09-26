@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0,'..\\rbm')
+
 #Interpreter python2
 #displays the dbn reconstructed digits
 print("Loading DBN\n")
