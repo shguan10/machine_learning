@@ -1,9 +1,16 @@
 # digit classifier 
-## Dependencies
-+ numpy
-+ cPickle
+## Operating System
++ Windows
+
 ## Interpreter
 + python2
+
+## Dependencies
++ numpy
++ pickle
++ Tkinter
++ os
++ gzip
 
 ## My Code
 + nninter.py
