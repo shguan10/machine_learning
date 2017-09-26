@@ -8,7 +8,7 @@
 ## My Code
 + nninter.py
 
-## Code based on [this helpful tutorial](www.neuralnetworksanddeeplearning.com)
+## Code based on [this helpful tutorial](http://www.neuralnetworksanddeeplearning.com)
 + mnist_loader.py
 + network.py
 
