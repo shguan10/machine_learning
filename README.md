@@ -18,3 +18,9 @@ python2
 ### Currently I have: 
 1. digit classifier interface
 2. digit reconstructor
+
+### Contact
+Please refer any contact to <shguan10@gmail.com> with 'Machine Learning Projects' in the subject header.
+
+### License
+© 2017. Xinyu Guan
