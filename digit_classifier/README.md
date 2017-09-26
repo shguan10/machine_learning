@@ -1,5 +1,5 @@
 # digit classifier 
-mnist_loader.py and network.py was taken from the helpful tutorial found on https://neuralnetworksanddeeplearning.com/
+mnist_loader.py and network.py was taken from the helpful tutorial found on <link> neuralnetworksanddeeplearning.com </link>
 
 I followed the tutorial to learn the ropes of a vanilla neural network. I was inspired to create an interface for the neural network, found in nninter.py
 
