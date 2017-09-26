@@ -4,11 +4,11 @@ I was inspired to start this project when I read a line in deeplearningandneural
 This led me to research more about generative models, the statistics behind them (like Contrastive Divergence and KL divergence), and the pros and cons of using one or the other. Eventually, I decided that I would start with DBNs.
 
 ### To Run the DBN:
-python dbnRun.py
+`python dbnRun.py`
 
 ### To Display the DBN Reconstructed Digits:
 
-python dbnDisplay.py
+`python dbnDisplay.py`
 
 ### List of resources used:
 
