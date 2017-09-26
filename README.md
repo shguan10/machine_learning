@@ -17,7 +17,7 @@ python2
 
 ### Currently I have: 
 1. digit classifier interface
-   + To see the demo, cd to the digit_classifier directory and run 'python nninter.py'
+   + To see the demo, run `python nninter.py`. NOTE: As the machine was trained on images centered on the 28x28 grid, try to draw digits that are centered as well. The machine will perform better.
 2. digit reconstructor
     + To see the demo, run `python dbnRun.py`. This will load the dbn with default weights, train it for 20 epochs, write the new weights to a file and finally display the reconstructed digits.
     + To only see the reconstructed digits using the default weights, run `python dbnDisplay.py`
