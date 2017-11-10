@@ -11,7 +11,7 @@ import warnings
 rootdir = '.\\'
 if(os.getcwd()[-3:]!="ing"): rootdir = '..\\..\\'#TODO this checks if the cwd is not the root dir (a dir that ends in 'ing'), so I should make this adaptable to more use cases in the future
 
-warnings.warn("may not find the default weights file if you change the file structure in any way;\nif this happens, just change rbm0_m.py:11 to the correct address of the default weights file")
+warnings.warn("this simply checks if the current directory (in the terminal) ends with 'ing' or not. This should work for the meantime, but I will make a stronger solution in the future.")
 
 #@params im is a binary Image object
 #returns the 784x1 training vector, without a bias unit
